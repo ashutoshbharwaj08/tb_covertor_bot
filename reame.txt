@@ -1,0 +1,48 @@
+A telegram bot for downloading terabox videos fastly
+Features
+Here're some of the project's best features:
+
+2 hours of wait time
+1 minute anti spam
+Download videos fastly
+Fast
+Easy to upadate
+
+
+🛠️ Installation Steps:
+
+1. Download latest version of python
+
+2. Download this repo
+
+3. Unzip and open terminal in that folder
+
+4. Download requirement's
+
+pip install -r requirements.txt
+
+
+5. Open config.py and fill it
+
+API_ID = 123456  # api id
+API_HASH = "ed44780dedd182084f2133b16944cf565"  # api hash
+
+BOT_TOKEN = "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11"  # bot token
+
+
+## REDIS
+HOST = "localhost"  # redis host uri
+PORT = 6379  # redis port
+PASSWORD = ""  # redis password
+
+PRIVATE_CHAT_ID = -1001234567890  # CHAT WHERE YOU WANT TO STORE VIDEOS
+COOKIE = ""  # COOKIE FOR AUTHENTICATION (get from chrome dev tools) ex: "PANWEB=1; csrfToken=; lang=en; TSID=; __bid_n=; _ga=; __stripe_mid=; ndus=; browserid==; ndut_fmt=; _ga_06ZNKL8C2E=" (don't use this)
+ADMINS = [1317173146]
+Get terabox cookie:
+Login in terabox with premium account
+Open any terabox link and watch the video below
+ how.to.get.terabox.cookie.mp4 
+
+6. start the bot
+
+python main.py
